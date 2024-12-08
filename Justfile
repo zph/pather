@@ -8,3 +8,6 @@ run *args:
 
 setup:
   nimble install cligen
+
+pather:
+  go build -o dist/pather main.go
